@@ -1,0 +1,23 @@
+{
+  "name": "flickr-generate-urls",
+  "version": "0.0.0",
+  "description": "Generate source URLs for given Flickr photo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "flickr",
+    "photography",
+    "api"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/flickr-generate-urls.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "devDependencies": {
+    "prova": "^1.12.1"
+  }
+}
