@@ -28,5 +28,8 @@ function all (options) {
 
 function one (key, options) {
   var secret = key == "original" ? options.osecret || options.originalSecret | options.original_secret : options.secret;
+
+  if (!secret) return;
+
   return "https:\/\/farm" + options.farm + ".staticflickr.com\/" + options.server + "\/" + options.id + "_" + secret + (keys[key] ? "_" + keys[key] : "") + "." + options.format;
 }
